@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#visuals {
+    height: 100%;
+    width: 100%;
+}
+
+#content {
+    position: absolute;
+    z-index: 1;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+}
