@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="bg-bgprimary">
+<html data-theme="night">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,29 @@
     </head>
     <body>
         <canvas id="bg-visuals" class="visuals"></canvas>
-        <div id="content">
-            <img class="w-48 mask mask-squircle" src="https://gravatar.com/avatar/c0b253d17a827c37a239f399e8280806?s=2048&r=r&d=retro" alt="avatar"></img>
-            <h1 class="text-3xl font-bold text-primary">YammyShep</h1>
+        <div id="identity" class="card w-96 bg-base-300 shadow-xl">
+            <div class="card-body">
+                <div class="avatar justify-center">
+                    <div class="w-64 mask mask-squircle">
+                        <img src="https://gravatar.com/avatar/c0b253d17a827c37a239f399e8280806?s=2048&r=r&d=retro" alt="avatar">
+                    </div>
+                </div>
+                <h1 class="card-title justify-center text-primary text-3xl mt-5">YammyShep</h1>
+                <div class="card-actions justify-center mt-2">
+                    <div class="badge badge-accent">They/Them</div>
+                    <div id="age-badge" class="badge badge-secondary">20</div>
+                    <div class="badge badge-info">🏳️‍🌈</div>
+                </div>
+                <p class="mt-5 mb-0 pb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nisi doloremque corporis animi nam incidunt et, quam pariatur repudiandae adipisci, ex saepe nostrum inventore nulla accusantium odio architecto veniam itaque?
+                </p>
+            </div>
+        </div>
+
+        <div id="socials">
+            <div class="">
+
+            </div>
         </div>
     </body>
 </html>
