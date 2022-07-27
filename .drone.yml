@@ -12,12 +12,12 @@ steps:
 - name: clean-server
   image: appleboy/drone-ssh
   settings:
-  host: 10.1.0.40
-  username: www-deploy
-  password:
-    from_secret: webserver-ssh-deploy-password
-  script:
-  - rm -rf /var/www/yshep.io/*
+    host: 10.1.0.40
+    username: www-deploy
+    password:
+      from_secret: webserver-ssh-deploy-password
+    script:
+    - rm -rf /var/www/yshep.io/*
   when:
     branch:
     - main
