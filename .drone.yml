@@ -16,8 +16,8 @@ steps:
     username: www-deploy
     password:
       from_secret: webserver-ssh-deploy-password
-    target: /var/www/yshep.io/
-    source: dist/*
+    target: /var/www/yshep.io
+    source: dist
     overwrite: true
   when:
     branch:
